@@ -4,8 +4,8 @@ import com.google.gson.annotations.SerializedName;
 
 public class Place {
 
-    private String name;
-    private Location location;
+    String name;
+    Location location;
 
     @SerializedName("formatted_address")
     private String address;

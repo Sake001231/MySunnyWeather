@@ -4,8 +4,8 @@ import java.util.List;
 
 public class PlaceResponse {
 
-    private String status;
-    private List<Place> places;
+    String status;
+    List<Place> places;
 
     public String getStatus() {
         return status;
